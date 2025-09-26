@@ -140,12 +140,6 @@ namespace Task1
             loader.TakeDamage(20);
             zombie.TakeDamage(20);
             Console.WriteLine();
-
-            Console.WriteLine("=== Проблемы монолитного подхода ===");
-            Console.WriteLine("- Слишком много флагов для управления поведением");
-            Console.WriteLine("- Сложно добавлять новые типы сущностей");
-            Console.WriteLine("- Нарушение принципа единственной ответственности");
-            Console.WriteLine("- Код становится нечитаемым и трудно поддерживаемым");
         }
     }
 }

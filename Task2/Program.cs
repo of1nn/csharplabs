@@ -239,13 +239,6 @@ namespace Task2
             zombie.TakeDamage(20);
             box.TakeDamage(20);
             Console.WriteLine();
-
-            Console.WriteLine("=== Проблемы иерархии наследования ===");
-            Console.WriteLine("- Сложно создать идеальную иерархию без дублирования кода");
-            Console.WriteLine("- Проблема 'Алмаз смерти' при множественном наследовании");
-            Console.WriteLine("- Некоторые сущности (как Box) не вписываются в иерархию");
-            Console.WriteLine("- Дублирование кода (метод TakeDamage в Player и Zombie)");
-            Console.WriteLine("- Неочевидность логики и сложность понимания иерархии");
         }
     }
 }
